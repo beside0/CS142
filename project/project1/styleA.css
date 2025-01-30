@@ -5,8 +5,8 @@ body{
 .container{
     display: flex; /*flex 布局*/
     flex-direction: column; /*按照列排列*/
+    justify-content: space-evenly;
     align-items: center; /*元素在交叉轴方向上居中对齐*/
-    gap: 5px;
 }
 
 .box{
